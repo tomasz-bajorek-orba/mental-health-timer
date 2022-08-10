@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Open Sans Extrabold';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Extrabold'), local('OpenSansExtrabold-Regular'),
+        url('./fonts/open-sans-extrabold.woff') format('woff'),
+        url('./fonts/open-sans-extrabold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bebas Neue Cyrillic';
+    src: local('Bebas Neue Cyrillic Regular'), local('Bebas-Neue-Cyrillic-Regular'),
+        url('./fonts/bebas-neue-cyrillic.woff2') format('woff2'),
+        url('./fonts/bebas-neue-cyrillic.woff') format('woff'),
+        url('./fonts/bebas-neue-cyrillic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/open-sans.eot');
+  src: local(''),
+       url('./fonts/open-sans.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/open-sans.woff2') format('woff2'),
+       url('./fonts/open-sans.woff') format('woff'),
+       url('./fonts/open-sans.ttf') format('truetype'),
+       url('./fonts/open-sans.svg#OpenSans') format('svg');
+}
+
+@font-face {
+    font-family: 'Antonio Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Antonio Bold'), local('Antonio-Bold'),
+        url('./fonts/antonio-bold.woff') format('woff'),
+        url('./fonts/antonio-bold.ttf') format('truetype');
+}
