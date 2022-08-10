@@ -214,7 +214,7 @@ const Timer = {
 
     getTotalSize: function () {
         const width = Math.min(Math.round(0.9 * window.innerWidth), 380);
-        const heightFactor = Math.pow(Math.min(window.innerHeight / (2.7 * document.body.scrollHeight), 1), 2);
+        const heightFactor = Math.pow(Math.min(window.innerHeight / (2 * document.body.scrollHeight), 1), 2);
         const height = Math.min(Math.round(0.35 * heightFactor * window.innerHeight), 380);
         return Math.min(width, height);
     }
